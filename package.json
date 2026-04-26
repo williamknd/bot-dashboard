@@ -1,6 +1,9 @@
 {
   "name": "bot-dashboard",
+  "dependencies": {
+    "serve": "^14.0.0"
+  },
   "scripts": {
-    "start": "npx serve . -p $PORT"
+    "start": "serve . -p $PORT"
   }
 }
